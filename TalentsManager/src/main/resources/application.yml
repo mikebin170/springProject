@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.98.220.165:3306/talents
+    url: jdbc:mysql://localhost:3306/talents
     username: root
     password: 123456789
     #always：表示总是读取sql语句
