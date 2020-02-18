@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.98.220.165:3306/talents
+    username: root
+    password: 123456789
+    #always：表示总是读取sql语句
+    initialization-mode: always
+    sql-script-encoding: utf-8
+    #SQL语句的文件
+    data: classpath:data.sql
+    separator: $$
+  jpa:
+    hibernate:
+      #自动创建表结构
+      ddl-auto: update
+      #显示sql语句
+    show-sql: true
+    generate-ddl: false
+  mvc:
+      view:
+        #映射前缀
+        prefix: /WEB-INF/jsps/
+        #映射后缀
+        suffix: .jsp
+
+
