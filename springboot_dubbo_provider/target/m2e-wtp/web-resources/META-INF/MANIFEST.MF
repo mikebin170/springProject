@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot_dubbo_provider
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.testfan
+Build-Jdk: 1.8.0_221
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springboot_dubbo_provider
+Created-By: Maven Integration for Eclipse
+
